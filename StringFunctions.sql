@@ -20,4 +20,6 @@ SELECT TRIM(BOTH '_' FROM column1) as trimmedcolumn from table1
 -- Could always switch Both out for TRAILING or LEADING
 
 -- Removing instances of something with this: 
-SELECT Replace(column1, '-','') 
+SELECT Replace(column1, '-','') Frtom tbl2
+
+
