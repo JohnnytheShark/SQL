@@ -1,2 +1,2 @@
 # SQL
-## Dive into the SQL Repository! 🌟 Your ultimate guide brimming with insightful SQL notes and robust examples. Perfectly crafted to tackle real-world questions and challenges, this repository is your key to mastering SQL queries and solutions
+## SQL Repository: A showcase of my SQL expertise, featuring comprehensive notes and examples that demonstrate my ability to solve complex problems with efficient and elegant SQL statements.
