@@ -2,7 +2,7 @@
 --- The confirmation rate of a user is the number of 'confirmed' messages divided by the total number of requested confirmation messages. Write a solution to find the confirmation rate of each user. 
 --- Return the result table in any order. 
 
--- Solution (Using PL/SQL
+-- Solution (Using PL/SQL)
 
 /*
 Table Structures where as followed: 
