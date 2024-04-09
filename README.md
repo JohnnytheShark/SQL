@@ -7,7 +7,7 @@
 1. Confirmation Rate Problem. [Confirmation Rate](https://github.com/JohnnytheShark/SQL/blob/main/ConfirmationRate.sql)
 
 #### LinkedIn Learning Problems:
-1. Needed a list of Orders and their corresponding items in a comma separated list.[Orders List](https://github.com/JohnnytheShark/SQL/blob/main/LinkedIn_Learning_ItemsList.sql)
+1. Needed a list of Orders and their corresponding items in a comma separated list. [Orders List](https://github.com/JohnnytheShark/SQL/blob/main/LinkedIn_Learning_ItemsList.sql)
 2. Return a list of dates that "Handcrafted Pizza" was ordered. [Pizza Problem](https://github.com/JohnnytheShark/SQL/blob/main/LinkedIn_Learning_PizzaOrders.sql)
 
 #### Reusuable SQL Statements:
