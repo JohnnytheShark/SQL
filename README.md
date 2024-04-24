@@ -10,6 +10,7 @@
 1. Needed a list of Orders and their corresponding items in a comma separated list. [Orders List](https://github.com/JohnnytheShark/SQL/blob/main/LinkedIn_Learning_ItemsList.sql)
 2. Return a list of dates that "Handcrafted Pizza" was ordered. [Pizza Problem](https://github.com/JohnnytheShark/SQL/blob/main/LinkedIn_Learning_PizzaOrders.sql)
 3. Return a list of Items and their Original Prices, Discounted Percentages, and Discounted Prices [Seasonal Sale Problem](https://github.com/JohnnytheShark/SQL/blob/main/LinkedIn_Learning_SeasonalSale.sql)
+4. Special Vendor List for our Store. [Vendor Employee List](https://github.com/JohnnytheShark/SQL/blob/main/VendorIntegration.sql)
 
 #### Reusuable SQL Statements:
 1. Date Functions. This holds sql statements used to convert dates or find the final days of the month. [Dates SQL](https://github.com/JohnnytheShark/SQL/blob/main/DateFunctions.sql)
