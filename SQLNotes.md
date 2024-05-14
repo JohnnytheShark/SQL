@@ -89,8 +89,52 @@ CAST('2021-02-25' AS DATE); cast tells it is a date
 | MAX() | CAST() | REGEXP() | EXTRACT() | |
 | | | | CONVERT() | |
 
+Aggregate functions apply calculations to non-null values in a column. Only exception is COUNT(*) which counts all rows including null values. 
+
+You can also aggregate multiple rows into a single list using functions like ARRAY_AGG, GROUP_CONCAT, LISTAGG, and STRING_AGG
+
+Oracle also offers: 
+MEDIAN, STATS_MODE,STDDEV
+
+Trimming in MySQL,Oracle, and PostgreSQL: 
+TRIM(LEADING ...) and TRIM(Trailing)
+Another keyword option is LTRIM and RTRIM
+
+### Concatenating: 
+MS SQL, MySQL, and PostgreSQL: 
+CONCAT()
+Oracle,SQLite,PostgreSQL:
+column || - || name
+
 ### Operators 
 Are symbols or keywords that perform a calculation or comparison.
+
+
+## Advanced Functions
+Case Statement is used to apply if-else logic within a query.
+Window Functions Split data into groups, aggregate or order the data within each group, and return a value for each row. 
+Pivoting and Unpivoting Turn values in a column into multiple columns or consolidate mulitple columns into a single column (Supported by ORACLE and SQL Server)
+
+ROW_NUMBER OVER (PARTITION BY name ORDER BY month) 
+For each name a row number is generated
+
+A window is a group of rowss
+The function you want to apply to each window
+Other common functions include RANK(),
+FIRST_VALUE(),LAG()
+
+OVER This states that you are specifying a window function
+PARTITION BY This states how you want to split your data into windows
+
+ORDER BY This states how each window should be sorted
+
+NTH_VALUE(column,number of row)
+returns a specific rank number within each window. SQL Server does NOT support NTH_VALUE
+
+LAG to look a certain number of rows behind
+LEAD to look ahead
+
+
 
 ## Creating Tables 
 Something I didn't realize until now is that we can set default values when creating a table using DEFAULT keyword:
@@ -132,6 +176,30 @@ If something looks wrong you can do a ROLLBACK which allows you to return to bef
 
 Based on your SQL you may need to use the word BEGIN;
 
+## Multiple Tables
+Joining Tables - Combine the columns of two tables based on matching rows
+
+Inner Join (Default) specifies that only matching rows should be returned.
+
+LEFT Join - Returns the rows in the left table and the matching rows in the other table
+
+Right Join - Returns the rows in the right table and the matching rows in other table 
+
+Full Outer Join - Returns the rows in both tables
+
+CROSS JOIN returns all cominations of rows in the two tables
+
+### Syntax
+USING Shortcut - Use using instead of the ON clause if the names of the columns that youare joining on match 
+USING (name)
+Natural JOIN Shortcut - Use instead of INNER JOIN if the names of columns that you are joining on match 
+states NATURAL JOIN pets;
+Self Join Use either the old join or new join syntax to return all combinations of the rows in a table with itself.
+
+
+Union Operators - Combine rows of two tables based on matching columns
+
+CTE - Temporarily Save the output of a query for another query to reference
 
 
 
