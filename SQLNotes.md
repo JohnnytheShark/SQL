@@ -86,6 +86,41 @@ CREATE TABLE myTable(
 Restricting values we can do the following: 
 country VARCHAR(2) CHECK (country IN ('CA','US'))
 
+## Indexes 
+Indexes are used to search through data quite often. 
+It is ideal to create an index that you often filter on. 
+
+CREATE INDEX nameOfIndex ON tableName('column_name');
+
+May take a long time to create, but it is a onetime task that's worth it in the long run for faster queries.
+
+Multicolumn INdex (Composite Index) are allowed.
+
+Need CREATE privileges to create an index.
+
+Dropping an index: 
+DROP INDEX indexName
+
+## VIEWS
+DBAs create views to restrict access to tables. 
+You can also create views based on complex queries that you plan on reusing in the future. 
+
+CREATE VIEW viewName AS (query here)
+
+## Transactions
+Transaction allows you to more safely update a database. IT consists of a sequence of operations that are executed as a single unit.
+START TRANSACTION;
+CHANGES HERE
+
+COMMIT;
+
+If something looks wrong you can do a ROLLBACK which allows you to return to before the stages where made.
+
+Based on your SQL you may need to use the word BEGIN;
+
+
+
+
 
 
 
