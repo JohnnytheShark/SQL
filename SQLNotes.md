@@ -75,8 +75,22 @@ Write Working Code First, Then Optimize it
 Filtering on columns then WHERE
 FIltering on aggregations then HAVING
 
-## Functions
+## Functions and Operators
 COALESCE function replaces NULL values in a column with a different value.
+
+CAST('2021-02-25' AS DATE); cast tells it is a date
+
+| Aggregate Functions | Numeric Functions | String Functions | Datetime Functions | Null Functions
+|---|---|---|---|---|
+| Count() | ABS() | LENGTH() | CURRENT_DATE | COALESCE() |
+| SUM() | SQRT () | TRIM() | CURRENT_TIME | | 
+| AVG() | LOG() | CONCAT() | DATEDIFF() | | 
+| MIN() | ROUND() | SUBSTR() | DATEDIFF() | | 
+| MAX() | CAST() | REGEXP() | EXTRACT() | |
+| | | | CONVERT() | |
+
+### Operators 
+Are symbols or keywords that perform a calculation or comparison.
 
 ## Creating Tables 
 Something I didn't realize until now is that we can set default values when creating a table using DEFAULT keyword:
