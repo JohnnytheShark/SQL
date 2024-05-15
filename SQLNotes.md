@@ -189,6 +189,10 @@ Full Outer Join - Returns the rows in both tables
 
 CROSS JOIN returns all cominations of rows in the two tables
 
+EXCEPT subtract results from one query from another
+
+INTERSECT find rows in common between two queries
+
 ### Syntax
 USING Shortcut - Use using instead of the ON clause if the names of the columns that youare joining on match 
 USING (name)
