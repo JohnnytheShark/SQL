@@ -21,10 +21,15 @@ Read Access only = data analyst or data scientist
 mnemonic: Sweaty feet will give horrible odors.
 
 SELECT --columns to display
+
 FROM -- table(s) to pull from
+
 WHERE -- filter rows
+
 GROUP BY --split rows into groups
+
 HAVING --filter grouped rows
+
 ORDER BY --columns to sort
 
 Computers work in this order: 
