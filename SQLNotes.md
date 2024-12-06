@@ -121,6 +121,7 @@ Window Functions Split data into groups, aggregate or order the data within each
 Pivoting and Unpivoting Turn values in a column into multiple columns or consolidate mulitple columns into a single column (Supported by ORACLE and SQL Server)
 
 ROW_NUMBER OVER (PARTITION BY name ORDER BY month) 
+
 ROW_NUMBER() <-- Big Query Version needs paranethesis
 For each name a row number is generated
 
